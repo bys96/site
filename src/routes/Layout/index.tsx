@@ -11,8 +11,8 @@ export default function Layout() {
     <>
       <NavigationBar />
       <div
-        className="relative flex flex-row gap-10 ml-10 mr-10 w-auto bg-red-900"
-        style={{ height: 5000 }}
+        className="relative flex flex-row gap-10 pl-10 pr-10 w-auto bg-gray-300"
+        style={{ height: 5000}}
       >
         <Sidebar />
         <Outlet />
